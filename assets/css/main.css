@@ -237,19 +237,51 @@ a:hover {
   line-height: 1;
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
-  font-weight: 400;
-}
-
-.icon > .label {
-  display: none;
+  font-weight: 900;
 }
 
 .icon.solid:before {
   font-weight: 900;
+  font-family: "Font Awesome 5 Brands";
 }
 
 .icon.brands:before {
   font-family: "Font Awesome 5 Brands";
+}
+
+li .label {
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  /* Position the tooltip */
+  position: absolute;
+  align-content: center;
+  z-index: 1;
+  line-height: 1em;
+  
+  top: 120%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+li:hover .label {
+  display: flex;
+}
+
+#projectid{
+  display: none;
+  position: absolute;
+  text-align: center;
+  width: fit-content;
+  align-content: center;
 }
 
 /* Wrapper */
@@ -324,8 +356,9 @@ a:hover {
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
 
-  background: #348cb2 url("images/tileable_yosemite.jpg") bottom left;
+  background: #348cb2 url("images/tileable_yosemite.jpg") center center;
   background-repeat: repeat-x;
+  background-size: 100% 100%;
   height: 100%;
   left: 0;
   opacity: 1;
@@ -786,6 +819,10 @@ a:hover {
 
 #header nav a:hover {
   font-size: 1.1em;
+}
+
+#header nav .nonhover:hover {
+  font-size: 1em;
 }
 
 #header nav a:hover:before {

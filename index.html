@@ -11,6 +11,8 @@
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
+    <script src="https://kit.fontawesome.com/de261fd445.js" crossorigin="anonymous"></script>
+
   </head>
   <body class="is-preload">
     <div id="wrapper">
@@ -27,47 +29,53 @@
           <nav>
             <ul>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/mtangmt/"
-                  class="icon brands fa-linkedin"
-                  ><span class="label">Twitter</span></a
-                >
+                <a href="https://www.linkedin.com/in/mtangmt/" class="icon brands fa-linkedin"></a>
+                <span class="label">LinkedIn</span>
               </li>
               <li>
-                <a href="#" class="icon brands fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                >
+                <a href="https://github.com/mtangmt" class="icon brands fa-github"></a>
+                  <span class="label">Github</span>
               </li>
               <li>
-                <a
-                  href="https://github.com/mtangmt"
-                  class="icon brands fa-github"
-                  ><span class="label">Github</span></a
-                >
+                <a href="Michael_Tang_Resume.pdf" class="icon fa-file" download></a>
+                  <span class="label">Resume</span>
               </li>
               <li>
-                <a href="#" class="icon fa-file"
-                  ><span class="label">Dribbble</span></a
-                >
+                <a href="mailto:mtangmt@gmail.com" class="icon fa-envelope"></a>
+                  <span class="label">Email</span>
               </li>
               <li>
-                <a href="#" class="icon solid fa-envelope"
-                  ><span class="label">Email</span></a
-                >
+                <a class="icon fa-diagram-project" onclick="showProjects()"></a>
+                <span class="label">Projects</span>
               </li>
             </ul>
+            <div id = "projectid">
+              <br>
+              <a href="https://mtangmt.github.io/CMSC422-Final-Project/">Fruits Image Classifier</a> <br>
+              <a href="https://mtangmt.github.io/CMSC320-Final-Project/">Stasticial Analysis of the Cost of College</a> <br>
+              <a href="https://cmsc335-final-project-aqer.onrender.com/">Web Page With a MongoDB Database, Serving NASA API</a> <br>
+              <a class = "nonhover">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;</a>
+            </div>
           </nav>
+          
         </header>
-
         <!-- Footer -->
         <footer id="footer"> Design:&nbsp;  
-            <a href="http://html5up.net">  HTML5 UP</a></span
-          >
+            <a href="http://html5up.net">  HTML5 UP</a>
         </footer>
       </div>
     </div>
     <script>
+      document.body.style.zoom="80%"
       window.onload = function () {
+        document.getElementById("projectid").style.display = "none";
         document.body.classList.remove("is-preload");
       };
       window.ontouchmove = function () {
@@ -76,6 +84,14 @@
       window.onorientationchange = function () {
         document.body.scrollTop = 0;
       };
+      function showProjects() {
+        var x = document.getElementById("projectid");
+        if (x.style.display === "none") {
+          x.style.display = "inline";
+        } else {
+          x.style.display = "none";
+        }
+      }
     </script>
   </body>
 </html>
