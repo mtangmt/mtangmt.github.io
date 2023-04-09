@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 html {
-  background-color: #84b7cd;
+  background-color: #6a706f;
 }
 
 html,
@@ -356,12 +356,9 @@ li:hover .label {
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
 
-  background: #6a706f url("images/tileable_yosemite.jpg") center center;
-  background-repeat: repeat-x; 
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
-  background-size: cover !important;
+  background: #6a706f url("images/4xtileyosemite.png") center left;
+  background-repeat: repeat-x !important; 
+
   height: 100%;
   left: 0;
   opacity: 1;
@@ -378,10 +375,10 @@ li:hover .label {
   }
 
   100% {
-    -moz-transform: translate3d(-2250px, 0, 0);
-    -webkit-transform: translate3d(-2250px, 0, 0);
-    -ms-transform: translate3d(-2250px, 0, 0);
-    transform: translate3d(-2250px, 0, 0);
+    -moz-transform: translate3d(-1608px, 0, 0);
+    -webkit-transform: translate3d(-1608px, 0, 0);
+    -ms-transform: translate3d(-1608px, 0, 0);
+    transform: translate3d(-1608px, 0, 0);
   }
 }
 
@@ -394,10 +391,10 @@ li:hover .label {
   }
 
   100% {
-    -moz-transform: translate3d(-2250px, 0, 0);
-    -webkit-transform: translate3d(-2250px, 0, 0);
-    -ms-transform: translate3d(-2250px, 0, 0);
-    transform: translate3d(-2250px, 0, 0);
+    -moz-transform: translate3d(-1608px, 0, 0);
+    -webkit-transform: translate3d(-1608px, 0, 0);
+    -ms-transform: translate3d(-1608px, 0, 0);
+    transform: translate3d(-1608px, 0, 0);
   }
 }
 
@@ -410,10 +407,10 @@ li:hover .label {
   }
 
   100% {
-    -moz-transform: translate3d(-2250px, 0, 0);
-    -webkit-transform: translate3d(-2250px, 0, 0);
-    -ms-transform: translate3d(-2250px, 0, 0);
-    transform: translate3d(-2250px, 0, 0);
+    -moz-transform: translate3d(-1608px, 0, 0);
+    -webkit-transform: translate3d(-1608px, 0, 0);
+    -ms-transform: translate3d(-1608px, 0, 0);
+    transform: translate3d(-1608px, 0, 0);
   }
 }
 
@@ -426,16 +423,11 @@ li:hover .label {
   }
 
   100% {
-    -moz-transform: translate3d(-2250px, 0, 0);
-    -webkit-transform: translate3d(-2250px, 0, 0);
-    -ms-transform: translate3d(-2250px, 0, 0);
-    transform: translate3d(-2250px, 0, 0);
+    -moz-transform: translate3d(-1608px, 0, 0);
+    -webkit-transform: translate3d(-1608px, 0, 0);
+    -ms-transform: translate3d(-1608px, 0, 0);
+    transform: translate3d(-1608px, 0, 0);
   }
-}
-
-#bg {
-  background-size: 2250px auto;
-  width: 6750px;
 }
 
 /* Overlay */
@@ -959,8 +951,9 @@ li:hover .label {
   }
 
   #bg {
-    background-size: 1500px auto;
-    width: 4500px;
+    /* background-size: 1500px auto;
+    width: 4500px; */
+    background-size: cover;
   }
 }
 
@@ -987,10 +980,10 @@ li:hover .label {
     }
 
     100% {
-      -moz-transform: translate3d(-750px, 0, 0);
-      -webkit-transform: translate3d(-750px, 0, 0);
-      -ms-transform: translate3d(-750px, 0, 0);
-      transform: translate3d(-750px, 0, 0);
+      -moz-transform: translate3d(-1608px, 0, 0);
+      -webkit-transform: translate3d(-1608px, 0, 0);
+      -ms-transform: translate3d(-1608px, 0, 0);
+      transform: translate3d(-1608px, 0, 0);
     }
   }
 
@@ -1003,10 +996,10 @@ li:hover .label {
     }
 
     100% {
-      -moz-transform: translate3d(-750px, 0, 0);
-      -webkit-transform: translate3d(-750px, 0, 0);
-      -ms-transform: translate3d(-750px, 0, 0);
-      transform: translate3d(-750px, 0, 0);
+      -moz-transform: translate3d(-1608px, 0, 0);
+      -webkit-transform: translate3d(-1608px, 0, 0);
+      -ms-transform: translate3d(-1608px, 0, 0);
+      transform: translate3d(-1608px, 0, 0);
     }
   }
 
@@ -1019,10 +1012,10 @@ li:hover .label {
     }
 
     100% {
-      -moz-transform: translate3d(-750px, 0, 0);
-      -webkit-transform: translate3d(-750px, 0, 0);
-      -ms-transform: translate3d(-750px, 0, 0);
-      transform: translate3d(-750px, 0, 0);
+      -moz-transform: translate3d(-1608px, 0, 0);
+      -webkit-transform: translate3d(-1608px, 0, 0);
+      -ms-transform: translate3d(-1608px, 0, 0);
+      transform: translate3d(-1608px, 0, 0);
     }
   }
 
@@ -1035,16 +1028,16 @@ li:hover .label {
     }
 
     100% {
-      -moz-transform: translate3d(-750px, 0, 0);
-      -webkit-transform: translate3d(-750px, 0, 0);
-      -ms-transform: translate3d(-750px, 0, 0);
-      transform: translate3d(-750px, 0, 0);
+      -moz-transform: translate3d(-1608px, 0, 0);
+      -webkit-transform: translate3d(-1608px, 0, 0);
+      -ms-transform: translate3d(-1608px, 0, 0);
+      transform: translate3d(-1608px, 0, 0);
     }
   }
 
   #bg {
-    background-size: 750px auto;
-    width: 2250px;
+    background-size: cover;
+    width: 6432px;
   }
 }
 
